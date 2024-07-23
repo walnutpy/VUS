@@ -31,6 +31,7 @@ public class CloseOpenButton : MonoBehaviour
         if (isOpen)
         {
             Open();
+            PlayerBtn.instance.Attritbute();
         } 
         else
         {
