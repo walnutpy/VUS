@@ -31914,8 +31914,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8171a19e38e6d46fab66691470efd952, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 314a625900fd0493e8b0a154cc6f3645, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -32466,7 +32466,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 244171049354035690}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8338907082207141301}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnCLick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &8319074908722189259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32487,6 +32499,7 @@ GameObject:
   - component: {fileID: 8319074908722189259}
   - component: {fileID: 244171049354035690}
   - component: {fileID: 8189107970635653274}
+  - component: {fileID: 8338907082207141301}
   m_Layer: 5
   m_Name: Skill1
   m_TagString: Untagged
@@ -32494,6 +32507,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8338907082207141301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8338907082207141300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc022da67350944583321b070cb0c13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 67657869041b0ae449cb17d82bc38bd3, type: 2}
+  Desc: {fileID: 1027105410}
+  SkillId: 0
 --- !u!224 &8707220836402046313
 RectTransform:
   m_ObjectHideFlags: 0
